@@ -23,7 +23,7 @@ font-weight: 700;
 font-size: 26px;
 line-height: 1,192;
 letter-spacing: 0.03em; 
-margin-left: 215px;
+text-align: center;
 } 
 .start_name_portfolio {
  color: #2196F3;
@@ -34,19 +34,21 @@ margin-left: 215px;
 .header_portfolio {
     display: flex;
     align-items: center;
-    width: 1600px;
+    width: auto;
     height: 80px;
     border: 1px solid #ECECEC;
 }
 .header_portfolio .logo_portfolio {
+    display: flex;
     margin-right: 93px;
+    margin-left: 115px;
 }
 .navigation_list_item_portfolio:not(:last-child) {
     margin-right: 50px;
 }
 .header_portfolio .address {
     margin-left: auto;
-    margin-right: 215px;
+    margin-right: auto;
 }
 .navigation_portfolio {
     display: flex;
@@ -57,6 +59,7 @@ margin-left: 215px;
 }
 .address_list {
     display: flex;
+    margin-left: 150px;
 }
 .mail_item {
     margin-right: 50px;
@@ -82,7 +85,9 @@ margin-left: 215px;
     }
     .hero_buttons {
     display: flex;
-    margin-left: 495px;
+    text-align: center; 
+    justify-content: center;
+    /* margin-left: 495px; */
     margin-top: 94px;
     }
 .buttons_item:not(:last-child) {
@@ -92,19 +97,20 @@ margin-left: 215px;
 .line_one {
     display: flex;
     margin-top: 50px;
-    margin-left: 215px;
+    justify-content: center;
     margin-bottom: 30px;
 }
 .line_two,
 .line_three  {
     display: flex;
-    margin-left: 215px;
+    align-items: center;
+    justify-content: center;
     margin-bottom: 30px;
 }
 .first_line,
 .second_line,
-.third_line:not(:last-child) {
-    margin-right: 30px;
+.third_line /* :not(:last-child) */ {
+ margin-right: 30px;  
 }
 .border_line_one,
 .border_line_two,
@@ -112,8 +118,11 @@ margin-left: 215px;
 border: 1px solid #EEEEEE;
 box-sizing: border-box;
 }
+.line_three {
+    margin-bottom: 94px;
+}
 .project_name {
-        font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
@@ -159,13 +168,13 @@ box-sizing: border-box;
     .footer_contact_information_portfolio {
         display: flex;
         background-color: #2F303A;
-        width: 1600px;
+        width: auto;
         height: 252px;
+        padding-left: 125px;
     }
     .container_information_portfolio {
         display: flex;
         flex-direction: column;
-        padding-left: 215px;
         padding-top: 60px;
     }
     .location_phone_email_portfolio:not(:last-child) {
@@ -479,7 +488,7 @@ color: #FFFFFF;
 .container_information {
     display: flex;
     flex-direction: column;
-    padding-left: 215px;
+    padding-left: 135px;
     padding-top: 60px;
 }
 .location_phone_email:not(:last-child) {

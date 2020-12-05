@@ -206,7 +206,7 @@ box-sizing: border-box;
 .header {
     display: flex;
     align-items: center;
-    margin-left: 215px;
+    justify-content: center;
 }
 .header {
     padding-top: 24px;
@@ -275,18 +275,23 @@ color: #757575;
 /*==========end-header==========*/
 /*==========hero==========*/
 
-.hero .container {
+.hero_name {
     display: flex;
     text-align: center;
+    justify-content: center;
 }
 
 .hero {
-width: 1600px;
+width: auto;
 height: 600px;
 background-color: #2F303A;
 padding: 200px 452px;
 text-align: center;
 } 
+.container_btn {
+    display: flex;
+    justify-content: center;
+}
 .target {
     font-family: 'Roboto', sans-serif;
 font-weight: 900;
@@ -323,7 +328,7 @@ text-align: center;
 
 .about_us .container {
 display: flex;
-margin-left: 215px;
+justify-content: center;
 }
 .about_items {
     display: flex;
@@ -352,10 +357,10 @@ padding-top: 10px;
 line-height: 24px;
 }
 .our_work {
+    display: flex;
     text-align: center;
     margin-top: 94px;
     margin-bottom: 50px;
-   /*  margin-left: 215px; */
     justify-content: center; 
 }
 .we_do {
@@ -363,7 +368,7 @@ line-height: 24px;
 }
 .what_we_do {
     display: flex;
-    margin-left: 215px;
+    justify-content: center;
 }
 .we_do_item:not(:last-child) {
     margin-right: 30px;
@@ -376,10 +381,9 @@ line-height: 24px;
 
 .team .container {
     background-color: #F5F4FA;
-    width: 1600px;
+    width: auto;
     height: 648px;
-    padding-left: 215px;
-    padding-right: 215px;
+   
 }
 .team .our_team {
     margin-top: 94px;
@@ -390,7 +394,7 @@ line-height: 24px;
 }
 .employees {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 .employe_name {
     padding-top: 30px;
@@ -401,6 +405,10 @@ line-height: 24px;
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
+.box_photo_name_position:not(:last-child) {
+margin-right: 30px;
+} 
+
 .position {
     padding-bottom: 30px;
 }
@@ -465,7 +473,7 @@ color: #FFFFFF;
 .contact_information {
     display: flex;
     background-color: #2F303A;
-    width: 1600px;
+    width: auto;
     height: 252px;
 }
 .container_information {

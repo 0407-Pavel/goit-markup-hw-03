@@ -37,6 +37,7 @@ text-align: center;
     width: auto;
     height: 80px;
     border: 1px solid #ECECEC;
+    justify-content: center;
 }
 .header_portfolio .logo_portfolio {
     display: flex;
@@ -171,6 +172,7 @@ box-sizing: border-box;
         width: auto;
         height: 252px;
         padding-left: 125px;
+        justify-content: flex-start;
     }
     .container_information_portfolio {
         display: flex;
@@ -206,6 +208,8 @@ box-sizing: border-box;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     }
+
+/*==========end portfolio========*/    
 /*==========header==========*/
 
 .container {
@@ -484,6 +488,7 @@ color: #FFFFFF;
     background-color: #2F303A;
     width: auto;
     height: 252px;
+    justify-content: flex-start;
 }
 .container_information {
     display: flex;

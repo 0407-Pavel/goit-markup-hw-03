@@ -171,13 +171,14 @@ box-sizing: border-box;
         background-color: #2F303A;
         width: auto;
         height: 252px;
-        padding-left: 125px;
+        
         justify-content: flex-start;
     }
     .container_information_portfolio {
         display: flex;
         flex-direction: column;
         padding-top: 60px;
+        padding-left: 125px;
     }
     .location_phone_email_portfolio:not(:last-child) {
         padding-bottom: 9px;
@@ -493,8 +494,8 @@ color: #FFFFFF;
 .container_information {
     display: flex;
     flex-direction: column;
-    padding-left: 135px;
-    padding-top: 60px;
+    margin-left: 135px;
+    margin-top: 60px;
 }
 .location_phone_email:not(:last-child) {
     padding-bottom: 9px;

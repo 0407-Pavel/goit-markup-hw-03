@@ -489,7 +489,6 @@ color: #FFFFFF;
     background-color: #2F303A;
     width: auto;
     height: 252px;
-    justify-content: flex-start;
 }
 .container_information {
     display: flex;
